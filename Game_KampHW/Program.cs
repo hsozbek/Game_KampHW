@@ -11,7 +11,7 @@ namespace Game_KampHW
     {
         static void Main(string[] args)
         {
-            //Text_GameUserManager2();  // Oyun satın alma (GameUser property(BuyedGames) si değiştirilip güncellenmiştir )
+            //Text_GameUserManager2();  // Oyun satın alma (GameUser property(BuyedGames) si değiştirilip güncellenmiştir 
             //Test_GameManager();       // Oyun ekleme,silme,güncelleme
             //Test_CampaignManager();   // Kampanya ekleme,silme,güncelleme.Kampanya fiyat listendiğinde istenirse uygulanır veritabanında ürün fiyatına yansımaz
             //Test_GameUserManager();   // Yeni kullanıcı ekleme(eDevlet kontrol similatörlü), silme, güncelleme
@@ -67,9 +67,9 @@ namespace Game_KampHW
                 NationalityId = "12345678910",
                 BuyedGames = new List<Game>() {}
             };
-
-            IGameUserManager gameUserManager = new GameUserManager();
-            gameUserManager.Add(gameUser1,new GameUserCheckServiceEDevlet());
+             
+            IGameUserManager gameUserManager = new GameUserManager(new GameUserCheckServiceEDevlet());
+            gameUserManager.Add(gameUser1);
             gameUserManager.Delete(gameUser1);
             gameUserManager.Update(gameUser1);
         }

@@ -8,7 +8,7 @@ namespace Game_KampHW.Abstract
 {
     public interface IGameUserManager
     {
-        void Add(GameUser gameUser,IGameUserCheckService gameUserCheckService);
+        void Add(GameUser gameUser);
         void Delete(GameUser gameUser);
         void Update(GameUser gameUser);
         

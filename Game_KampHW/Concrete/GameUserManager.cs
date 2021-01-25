@@ -10,13 +10,21 @@ namespace Game_KampHW.Concrete
 {
     public class GameUserManager : IGameUserManager
     {
+        private IGameUserCheckService _gameUserCheckService;
+        public GameUserManager(IGameUserCheckService gameUserCheckService)
+        {
+            _gameUserCheckService = gameUserCheckService;
+        }
 
-
-        public void Add(GameUser gameUser, IGameUserCheckService gameUserCheckService)
+        public GameUserManager()
+        {
+            
+        }
+        public void Add(GameUser gameUser)
         {
 
 
-            if (gameUserCheckService.Check(gameUser))
+            if (_gameUserCheckService.Check(gameUser))
             {
                 Console.WriteLine("Game user added");
                 Console.WriteLine("Id : " + gameUser.Id);
