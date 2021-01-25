@@ -1,0 +1,13 @@
+C:\Users\hselc\source\repos\Game_KampHW\Game_KampHW\bin\Debug\netcoreapp3.1\Game_KampHW.exe
+C:\Users\hselc\source\repos\Game_KampHW\Game_KampHW\bin\Debug\netcoreapp3.1\Game_KampHW.deps.json
+C:\Users\hselc\source\repos\Game_KampHW\Game_KampHW\bin\Debug\netcoreapp3.1\Game_KampHW.runtimeconfig.json
+C:\Users\hselc\source\repos\Game_KampHW\Game_KampHW\bin\Debug\netcoreapp3.1\Game_KampHW.runtimeconfig.dev.json
+C:\Users\hselc\source\repos\Game_KampHW\Game_KampHW\bin\Debug\netcoreapp3.1\Game_KampHW.dll
+C:\Users\hselc\source\repos\Game_KampHW\Game_KampHW\bin\Debug\netcoreapp3.1\Game_KampHW.pdb
+C:\Users\hselc\source\repos\Game_KampHW\Game_KampHW\obj\Debug\netcoreapp3.1\Game_KampHW.csprojAssemblyReference.cache
+C:\Users\hselc\source\repos\Game_KampHW\Game_KampHW\obj\Debug\netcoreapp3.1\Game_KampHW.AssemblyInfoInputs.cache
+C:\Users\hselc\source\repos\Game_KampHW\Game_KampHW\obj\Debug\netcoreapp3.1\Game_KampHW.AssemblyInfo.cs
+C:\Users\hselc\source\repos\Game_KampHW\Game_KampHW\obj\Debug\netcoreapp3.1\Game_KampHW.csproj.CoreCompileInputs.cache
+C:\Users\hselc\source\repos\Game_KampHW\Game_KampHW\obj\Debug\netcoreapp3.1\Game_KampHW.dll
+C:\Users\hselc\source\repos\Game_KampHW\Game_KampHW\obj\Debug\netcoreapp3.1\Game_KampHW.pdb
+C:\Users\hselc\source\repos\Game_KampHW\Game_KampHW\obj\Debug\netcoreapp3.1\Game_KampHW.genruntimeconfig.cache
